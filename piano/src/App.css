@@ -12,10 +12,15 @@ body {
 
 .keys {
   display: flex;
-  justify-content: center;
   gap: 10px;
-  flex-wrap: wrap;
   margin-top: 40px;
+  padding: 20px;
+
+  overflow-x: auto;    /* ✅ permite deslizar */
+  overflow-y: hidden;
+  white-space: nowrap;
+
+  scroll-behavior: smooth;
 }
 
 .key {
