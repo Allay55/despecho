@@ -46,7 +46,7 @@ export default function App() {
 
   return (
     <div className="piano">
-      <h1>🎹 Piano React</h1>
+     
       <div className="keys">
         {notes.map((note,index) => (
           <button

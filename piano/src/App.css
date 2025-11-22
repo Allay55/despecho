@@ -24,16 +24,17 @@ body {
 }
 
 .key {
-  width: 80px;
-  height: 200px;
+  min-width: 120px; /* 👈 más anchas */
+  height: 320px;
   background: white;
   color: black;
   border: none;
   font-size: 1.2rem;
   cursor: pointer;
   transition: 0.2s;
-  border-radius: 0 0 10px 10px;
+  border-radius: 0 0 15px 15px;
 }
+
 
 .key:hover {
   transform: scale(1.05);
